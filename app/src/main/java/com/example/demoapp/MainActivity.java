@@ -5,11 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     public void disable(View v)
     {
-        v.setEnabled(false);
+        ((Button) findViewById(R.id.button)).setText("Anyád");
     }
     public void enable(View v)
     {
