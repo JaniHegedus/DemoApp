@@ -18,6 +18,7 @@
 
     <Button
         android:id="@+id/button"
+        android:onClick="enable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
@@ -36,6 +37,7 @@
         android:layout_marginEnd="152dp"
         android:layout_marginBottom="268dp"
         android:text="@string/app_name"
+        android:onClick="disable"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
